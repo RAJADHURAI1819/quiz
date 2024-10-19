@@ -1,21 +1,30 @@
 // script.js
 const quizQuestions = [
   {
-    question: "Who directed the movie 'Inception'?",
-    answers: [
-      "Christopher Nolan",
-      "Steven Spielberg",
-      "James Cameron",
-      "Quentin Tarantino",
-    ],
-    correctAnswer: 0,
-  },
-  {
     question: "Which year was 'The Godfather' released?",
     answers: ["1972", "1980", "1990", "1965"],
     correctAnswer: 0,
   },
-  // Add more questions as needed
+  {
+    question: "Which film is the gangster film ?",
+    answers: ["Inside Job", "New World", "The notebook", "500 Days of summer"],
+    correctAnswer: 1,
+  },
+  {
+    question: "What series deals with Drugs and chemistry ?",
+    answers: ["Game of thrones", "Breaking Bad", "Prison Break", "Suits"],
+    correctAnswer: 1,
+  },
+  {
+    question: "Which HBO series Deals with AI ?",
+    answers: ["The Wire", "Sucession", "Silicon Valley", "West World"],
+    correctAnswer: 3,
+  },
+  {
+    question: "Which series tells you more about  stalking ?",
+    answers: ["Stranger things", "Lupin", "You", "Narcos"],
+    correctAnswer: 2,
+  },
 ];
 
 let currentQuestionIndex = 0;
