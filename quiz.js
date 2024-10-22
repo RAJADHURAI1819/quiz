@@ -29,7 +29,7 @@ const quizQuestions = [
 
 let currentQuestionIndex = 0;
 let score = 0;
-let timeLeft = 10;
+let timeLeft = 20;
 let timer;
 
 const questionContainer = document.getElementById("question-container");
@@ -52,7 +52,7 @@ function startQuiz() {
   correctCount = 0;
   wrongCount = 0;
   skippedCount = 0;
-  timeLeft = 10; // Reset timer for each question
+  timeLeft = 20; // Reset timer for each question
   pointsElement.textContent = score; // Reset points display
   resultContainer.style.display = "none";
   document.getElementById("quiz-container").style.display = "block";
